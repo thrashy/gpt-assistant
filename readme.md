@@ -3,6 +3,7 @@ Audio Transcriber with GPT Model and Text-to-Speech
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Dependencies Installation Guide](#dependencies-installation-guide)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
