@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+import logging
 import os
 
 from audio_recorder import AudioRecorder
@@ -9,6 +10,8 @@ from text_to_speech import TextToSpeech
 
 def main():
     load_dotenv(override=True)
+    logging.basicConfig()
+    logging.getLogger().setLevel(logging.INFO)
 
     wave_output_filename = "temp.wav"
 

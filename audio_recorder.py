@@ -25,8 +25,7 @@ class AudioRecorder:
                 'CHUNK': 4096,
                 'SILENCE_LIMIT': 2,
                 'PREV_AUDIO': 0.5,
-                'THRESHOLD': 600,
-                'WAVE_OUTPUT_FILENAME': "temp.wav"
+                'THRESHOLD': 600
             }
 
         self.config = config
